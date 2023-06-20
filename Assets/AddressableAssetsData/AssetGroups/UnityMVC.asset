@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: UnityMVC
+  m_EditorClassIdentifier: 
+  m_GroupName: UnityMVC
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 025ac1390773ebb4f8403d1b61dc1f72
+  m_SerializeEntries:
+  - m_GUID: 3cef569fa69a75840b3dce077d0d407b
+    m_Address: Menu/Index
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 3196e235ef78d7a4585972c9cd395ab9
+    m_Address: Menu/Options
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: b9f3d03e84f567442982ca864eeeb040
+    m_Address: Menu/Exit
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: aee25e30c0d784c4b860619a5467f40e
+    m_Address: Profile/Index
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 0276aaf1acd6e6d45aa3457356837c47
+    m_Address: Game/Single
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 193e9a41306b8424c8d9e025883f78b7
+    m_Address: Game/Multi
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 487c58b1300930649b91d86f848c9fb4
+    m_Address: Alert/Success
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: f5e1ebb07068cdd4c86ef70d8f31a4a9
+    m_Address: Alert/Error
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 875591c5b3b7f794f933d3c2c9dc92d9
+    m_Address: Game/PauseMenu
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 41c16f68832806045a8062d793df2f98, type: 2}
+  m_SchemaSet:
+    m_Schemas: []
