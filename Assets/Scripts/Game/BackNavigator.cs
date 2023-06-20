@@ -45,13 +45,17 @@ public class BackNavigator : MonoBehaviour
 
         if (lastPartialView != null) 
         {
+            /*
             ViewContainer viewComp = ((ViewResult)lastPartialView).ViewContainerComponent;
             Type viewType = viewComp.GetType();
             MethodInfo destroyMethod = viewType.GetMethod("DestroySelf");
             if (destroyMethod != null) destroyMethod.Invoke(lastPartialView, null);
-            
+            else
+                Destroy(lastPartialView.InstantiatedObject);
+            */
+
             // it's enough though, previous one is written for a possible hack
-            else Destroy(lastPartialView.InstantiatedObject);
+            Destroy(lastPartialView.InstantiatedObject);
             lastPartialView.ReleaseAddressableReference();
             lastPartialView = null;
             return;

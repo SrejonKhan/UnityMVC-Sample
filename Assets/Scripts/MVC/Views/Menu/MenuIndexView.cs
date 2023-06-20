@@ -24,7 +24,6 @@ public class MenuIndexView : ViewContainer
 
     public void OnMultiplayerButtonClick()
     {
-        var multiplayerOptions = new MultiplayerOptions(4, "Shunno", "PVP");
-        MVC.Navigate("Game/Multi", multiplayerOptions);
+        MVC.Navigate("Game/CreateRoom", true);
     }
 }

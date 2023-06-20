@@ -15,7 +15,7 @@ public class Middlewares : MonoBehaviour
     {
         var middleware = MVC.ConfigureMiddleware();
 
-        middleware.OnRoute("Game/Multi", (ctx, type) =>
+        middleware.OnRoute("Game/CreateRoom", (ctx, type) =>
         {
             if (!Global.IsAuthenticated)
             {

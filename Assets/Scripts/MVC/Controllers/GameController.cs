@@ -16,5 +16,10 @@ public class GameController : MonoController
     {
         return View();
     }
+
+    public ViewResult CreateRoom()
+    {
+        return View();
+    }
 }
 
