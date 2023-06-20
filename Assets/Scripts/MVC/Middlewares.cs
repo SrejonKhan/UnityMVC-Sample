@@ -30,10 +30,17 @@ public class Middlewares : MonoBehaviour
             Debug.Log("You better not go, because middleware works in partial view too!");
             return true;
         });
-
+        
+        // multiple configurations example
         middleware.OnRoute("Alert/*", (ctx, type) => 
         {
-            Debug.Log("This is aler for all!");
+            Debug.Log("Config 1: Alert/* - This is alert for all!");
+            return true;
+        });
+
+        middleware.OnRoute("Alert/*", (ctx, type) =>
+        {
+            Debug.Log("Config 2: Alert/* - This is alert for all!");
             return true;
         });
     }
