@@ -4,6 +4,8 @@ This repository contains a sample project that demonstrates the features and cap
 
 ![basic-demo.gif](https://i.ibb.co/py7dg9m/basic-demo-2.gif)
 
+[Direct Link to Demo GIF (imgbb)](https://i.ibb.co/py7dg9m/basic-demo-2.gif)
+
 ## Getting Started
 
 These instructions will help you set up the sample project on your local machine for testing and exploration purposes.
