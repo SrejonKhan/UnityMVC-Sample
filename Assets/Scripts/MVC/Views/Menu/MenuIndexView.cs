@@ -21,9 +21,4 @@ public class MenuIndexView : ViewContainer
     {
         Global.IsAuthenticated = value;
     }
-
-    public void OnMultiplayerButtonClick()
-    {
-        MVC.Navigate("Game/CreateRoom", true);
-    }
 }
